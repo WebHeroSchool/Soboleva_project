@@ -13,11 +13,10 @@ body {
   justify-content: space-between;
 }
 .logo,.menu {
-  margin-right: 63%;
   border: dashed 1px red;
 }
 .logo {
-  padding: 40px 0;
+    padding: 40px 0;
 }
 .menu {
   display: flex;
