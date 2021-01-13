@@ -1,2 +1,60 @@
 h1{font-family: 'PT Serif',sans-serif;}
 p {font-family: 'Roboto', sans-serif;}
+body {
+  margin: 0;
+}
+.wrapper {
+  margin: auto;
+  width: 80%;
+}
+
+.header {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+    width: 190px;
+    height: 35px;
+    background: url('img/logo.svg');
+  }
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  position: relative;
+  margin-right: 26px;
+  font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  color: #000000;
+  text-decoration: none;
+  transition: opacity .5s;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__item_activ::after{
+  position: absolute;
+  display: block;
+  content: '';
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #0056EC;
+  opacity: 0;
+  transition: opacity .5s, width .5s;
+}
+
+.menu__item:hover{
+  opacity: 0.5;
+}
+
+.menu__item:hover:after,.menu__item_activ:after{
+  opacity: 1;
+  width: 100%;
+}
