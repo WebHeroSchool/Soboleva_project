@@ -1,5 +1,3 @@
-h1{font-family: 'PT Serif',sans-serif;}
-p {font-family: 'Roboto', sans-serif;}
 body {
   margin: 0;
 }
@@ -12,6 +10,104 @@ body {
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 206px;
+}
+
+.logo {
+    margin-right: 63%;
+    width: 190px;
+    height: 32px;
+    background: url('img/logo.svg');
+  }
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  position: relative;
+  margin-right: 26px;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  color: #000000;
+  text-decoration: none;
+  transition: opacity .5s;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__item_activ::after{
+  position: absolute;
+  display: block;
+  content: '';
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #0056EC;
+  opacity: 0;
+  transition: opacity .5s, width .5s;
+}
+
+.menu__item:hover{
+  opacity: 0.5;
+}
+
+.menu__item:hover:after,.menu__item_activ:after{
+  opacity: 1;
+  width: 100%;
+}
+
+.main{
+  padding: 0 63% 100px 0;
+  background: right no-repeat url('img/mainimg.svg');
+
+}
+
+.main__title{
+  margin: 0 0 40px 0;
+  font: bold 66px/87px 'pt serif', arial, helvetica, sans-serif;
+}
+
+.main__subtitle{
+  margin: 0 90px 41px 0;
+  font: 22px/26px Roboto, arial, helvetica, sans-serif;
+}
+
+.main__button{
+  display: inline-block;
+  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+  padding: 17px 29px;
+  color:#fff;
+  background: #0056EC;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity .5s;
+}
+
+.main__title-text_highlight{
+  background: #ECF3FF;
+}
+
+.main__button:hover{
+  opacity: .5;
+}
+
+
+/*body {
+  margin: 0;
+}
+.wrapper {
+  margin: auto;
+  width: 80%;
+}
+
+.header {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .logo {
@@ -58,3 +154,38 @@ body {
   opacity: 1;
   width: 100%;
 }
+
+.main{
+  padding: 0 63% 100px 0;
+  background: top right no-repeat url('img/mainimg.svg');
+
+}
+
+.main__title{
+  margin: 0 0 40px 0;
+  font: bold 48px/65px 'pt serif', arial, helvetica, sans-serif;
+}
+
+.main__subtitle{
+  margin: 0 0 41px 0;
+  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+}
+
+.main__button{
+  display: inline-block;
+  font: 14px/16px Roboto, arial, helvetica, sans-serif;
+  padding: 14px 16px;
+  color:#fff;
+  background: #0056EC;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: opacity .5s;
+}
+
+.main__title-text_highlight{
+  background: #ECF3FF;
+}
+
+.main__button:hover{
+  opacity: .5;
+}*/
