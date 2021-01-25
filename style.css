@@ -478,9 +478,79 @@ body {
   margin: 0px;
  }
  .main__button{
-   font: 500 26px/11px Roboto, aria, helvetica, sans-serif;
+   font: 500 26px/11px Roboto, arial, helvetica, sans-serif;
    padding: 38px 50px 36px 50px;
    margin: 0px 30px 0px 33px;
  }
 
 }
+
+@media (max-width: 375px) {
+
+  .wrapper{
+    margin: 20px 0px 0px 45px;
+    padding: 0px;
+  }
+
+  .logo {
+      display: none;
+    }
+
+ .menu {
+  display: none;
+ }
+
+ .header{
+  margin: 14px 0px 0px;
+  padding: 12px 0px;
+  background-size: 30px;
+ }
+
+ .menu__btn {
+   top: 6px;
+   left: 320px;
+   width: 21px;
+   height: 51px;
+ }
+
+ .menu__btn > span::before {
+   top: -7px;
+ }
+ .menu__btn > span::after {
+   top: 7px;
+ }
+
+ .menu__box {
+   top: 0;
+   left: -100%;
+   width: 375px;
+   height: 100%;
+   margin: 0;
+   padding: 100px 0;
+ }
+
+ .menu__item {
+   padding: 20px 24px;
+   font-size: 30px;
+ }
+
+ .main{
+  background-size: 60%;
+  background-position: top 0px left 40px ;
+  padding: 195px 0px 0px;
+ }
+
+ .main__title{
+   font: bold 25px/35px 'pt serif', arial, helvetica, sans-serif;
+   padding: 0px 100px 0px 50px;
+ }
+ .main__subtitle{
+  font: 11px/17px Roboto, arial, helvetica, sans-serif;
+  padding: 0px;
+  margin: 7px 100px 20px 58px;
+ }
+ .main__button{
+   font: 500 10px/12px Roboto, arial, helvetica, sans-serif;
+   padding: 12px 17px 12px 17px;
+   margin: 0px 55px 0px 0px;
+ }
