@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 .wrapper {
-  margin: 0px 192px;
+  margin: 0px auto;
   width: 100%;
 }
 
@@ -10,7 +10,7 @@ body {
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
-  padding: 42px 396px 166px 5px;
+  padding: 40px 203px 166px 197px;
 }
 
 .logo {
@@ -60,9 +60,9 @@ body {
 }
 
 .main{
-  padding: 75px 900px 110px 0;
+  padding: 78px 745px 110px 192px;
   background: right no-repeat url('img/mainimg.svg');
-  background-position: top 0px left 762px;
+  background-position: top 5px left 952px;
 
 }
 
@@ -129,6 +129,9 @@ body {
     padding: 0px 100px 22px 1px;
   }
 
+  .main{
+      background-position: top 5px left 855px;
+  }
 
   @media (max-width: 1536px){
 
@@ -136,30 +139,32 @@ body {
       display: none;
     }
 
-    .wrapper{
-      margin: 0px 168px;
-    }
-
     .header{
-      padding: 33px 124px 130px 13px;
+      padding: 40px 124px 130px 105px;
     }
 
     .main{
      padding: 75px 50% 100px 0;
-     background-size: 45%;
-     background-position: top 46px left 689px;
+     background-size: 40%;
+     background-position: top 46px left 790px;
     }
 
     .main__title{
       font: bold 59px/76px 'pt serif', arial, helvetica, sans-serif;
-      padding: 20px 70px 0px 8px;
-      margin: 0px 0px 33px;
+      padding: 20px 70px 0px 0px;
+      margin: 0px 85px 33px;
     }
 
     .main__subtitle{
-     font: 20px/24px Roboto, arial, helvetica, sans-serif;
-     margin: 0 315px 38px 7px;
+     font: 20px/26px Roboto, arial, helvetica, sans-serif;
+     margin: 0 290px 38px 87px;
      padding: 0px;
+   }
+
+     .main__button{
+       font: 18px/21px Roboto, arial, helvetica, sans-serif;
+       padding: 18px 30px 18px 25px;
+       margin: 0px 85px;
     }
   }
 
@@ -170,11 +175,11 @@ body {
   }
 
   .wrapper{
-    margin: 40px 220px;
+    margin: 0px auto;
   }
 
   .header{
-    margin: 40px 443px 47px 0px;
+    margin: 42px 394px 47px 49px;
     padding: 0px;
   }
 
@@ -183,9 +188,9 @@ body {
   }
 
   .main{
-   padding: 75px 60% 65px 0;
+   padding: 78px 59% 65px 50px;
    background-size: 38%;
-   background-position: top 68px left 413px;
+   background-position: top 72px left 463px;
   }
 
   .main__title{
@@ -201,27 +206,19 @@ body {
 
   .main__button{
     font: 500 14px/16px Roboto, aria, helvetica, sans-serif;
-    padding: 18px 21px 13px 16px;
+    padding: 14px 21px 13px 16px;
+    margin: 0;
 
   }
 }
 @media (max-width: 1024px){
 
-  .body {
-  height: 100%;
-}
-
   .hamburger-menu{
     display: none;
   }
 
-  .wrapper{
-    margin: 40px 0px 0px 48px;
-    width: 100%;
-  }
-
   .header{
-    margin: 0px 95px 124px 0px;
+    margin: 42px 47px 124px 46px;
   }
 
   .menu__item {
@@ -230,26 +227,26 @@ body {
 
   .main{
    background-size: 50%;
-   background-position: top 0px left 418px;
-   padding: 0 45% 55px 0;
+   background-position: top 0px left 465px;
+   padding: 0 440px 55px 0;
   }
 
   .main__title{
     font: bold 50px/66px 'pt serif', arial, helvetica, sans-serif;
-    padding: 15px 0px 0px;
-    margin: 0px 0px 40px 0px;
+    padding: 12px 0px 0px;
+    margin: 0px 0px 40px 45px;
   }
 
   .main__subtitle{
    font: 18px/21px Roboto, arial, helvetica, sans-serif;
-   margin: 0px 200px 43px 0px;
+   margin: 0px 160px 43px 47px;
    padding: 0;
   }
 
   .main__button{
     font: 500 14px/16px Roboto, aria, helvetica, sans-serif;
-    padding: 13px 21px 14px 16px;
-
+    padding: 13px 21px 14px 21px;
+    margin: 0px 44px;
   }
 }
 
