@@ -9,7 +9,7 @@ body {
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
-  padding: 40px 203px 166px 197px;
+  padding: 41px 12px 166px 4px;
 }
 
 .logo {
@@ -59,21 +59,21 @@ body {
 }
 
 .main{
-  padding: 78px 745px 110px 192px;
+  padding: 76px 745px 110px 0px;
   background: right no-repeat url('img/mainimg.svg');
-  background-position: top 5px left 952px;
+  background-position: top 4px left 762px;
 
 }
 
 .main__title{
-  margin: 0 100px 35px 2px;
-  padding: 0px 250px 0px 0px;
-  font: bold 66px/87px 'pt serif', arial, helvetica, sans-serif;
+  margin: 0 50px 35px 0px;
+  padding: 0px;
+  font: bold 66px/88px 'pt serif', arial, helvetica, sans-serif;
 }
 
 .main__subtitle{
-  padding: 0px 537px 22px 1px;
-  font: 22px/26px Roboto, arial, helvetica, sans-serif;
+  padding: 0px 340px 22px 1px;
+  font: 22px/25px Roboto, arial, helvetica, sans-serif;
 }
 
 .main__button{
@@ -110,12 +110,17 @@ body {
 
 @media (max-width: 1920px){
 
+  .wrapper{
+    width: 80%;
+
+}
+
   .hamburger-menu{
     display: none;
   }
 
   .main{
-    background-size: 40%;
+    background-size: 50%;
   }
 
 @media (max-width: 1600px){
