@@ -175,12 +175,17 @@ body {
 
   .wrapper{
     margin: 0px auto;
+    width: 100%;
   }
 
   .header{
-    margin: 42px 394px 47px 49px;
+    margin: 42px 0px 47px 49px;
     padding: 0px;
   }
+
+    .menu{
+      padding: 0px 388px; 
+    }
 
     .menu__item {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
