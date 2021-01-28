@@ -217,6 +217,15 @@ body {
 
   }
 }
+
+@media (max-width: 1200px){
+  .wrapper {
+    width: 87%;
+  }
+}
+
+
+}
 @media (max-width: 1024px){
 
   .wrapper {
@@ -259,6 +268,24 @@ body {
     margin: 0px 44px;
   }
 }
+
+@media (max-width: 945px){
+  .main{
+    background-size: 40%;
+    background-position: top 0px left 420px;
+  }
+  .main__title{
+    font: bold 35px/42px 'pt serif', arial, helvetica, sans-serif;
+    margin: 0px 42px 40px;
+  }
+  .main__subtitle{
+   font: 16px/20px Roboto, arial, helvetica, sans-serif;
+   margin: 0px 100px 43px 45px;
+  }
+  .main__button{
+    margin: 0px 45px;
+}
+
 
 @media (max-width: 768px) {
 
