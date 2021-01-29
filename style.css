@@ -23,7 +23,6 @@ body {
   align-items: center;
 }
 
-
 .menu__item {
   position: relative;
   margin-right: 26px;
@@ -107,7 +106,6 @@ body {
   }
 }
 
-
 @media (max-width: 1920px){
 
   .wrapper{
@@ -138,7 +136,7 @@ body {
     background-position: top 5px left 620px;
   }
 
-  @media (max-width: 1536px){
+@media (max-width: 1536px){
 
     .hamburger-menu{
       display: none;
@@ -189,7 +187,7 @@ body {
     padding: 0px;
   }
 
-    .menu__item {
+  .menu__item {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 
@@ -224,8 +222,8 @@ body {
   }
 }
 
-
 }
+
 @media (max-width: 1024px){
 
   .wrapper {
@@ -270,6 +268,7 @@ body {
 }
 
 @media (max-width: 945px){
+
   .main{
     background-size: 40%;
     background-position: top 0px left 420px;
@@ -287,18 +286,18 @@ body {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 768px){
 
-  .wrapper{
+ .wrapper{
     margin: 0px auto;
     width: 80%;
   }
 
-  .logo {
+ .logo{
       display: none;
     }
 
- .menu {
+ .menu{
   display: none;
  }
 
@@ -319,26 +318,29 @@ body {
   background-size: 90%;
   background-position: top 0px center;
  }
+
  .main__title{
    font: bold 40px/50px 'pt serif', arial, helvetica, sans-serif;
    padding: 500px 40px 0px 40px;
    margin: 0px 80px 32px 80px;
  }
+
  .main__subtitle{
   font: 16px/19px Roboto, arial, helvetica, sans-serif;
   margin: 0px 150px 40px 150px;
  }
+
  .main__button{
    font: 500 14px/16px Roboto, aria, helvetica, sans-serif;
    padding: 15px 23px 12px 23px;
    margin: 0px 130px 0px 130px;
  }
 
-#menu__toggle {
+#menu__toggle{
   opacity: 0;
 }
 
-.menu__btn {
+.menu__btn{
   display: flex;
   align-items: center;
   position: fixed;
@@ -363,12 +365,13 @@ body {
   content: '';
   top: -15px;
 }
-.menu__btn > span::after {
+
+.menu__btn > span::after{
   content: '';
   top: 15px;
 }
 
-.menu__box {
+.menu__box{
   display: block;
   position: fixed;
   visibility: hidden;
@@ -384,7 +387,7 @@ body {
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
 }
 
-.menu__item {
+.menu__item{
   display: block;
   padding: 22px 24px;
   color: #333;
@@ -393,39 +396,45 @@ body {
   font-weight: 600;
   text-decoration: none;
 }
-.menu__item:hover {
+
+.menu__item:hover{
   background-color: #CFD8DC;
 }
 
-#menu__toggle:checked ~ .menu__btn > span {
+#menu__toggle:checked ~ .menu__btn > span{
   transform: rotate(45deg);
 }
-#menu__toggle:checked ~ .menu__btn > span::before {
+
+#menu__toggle:checked ~ .menu__btn > span::before{
   top: 0;
   transform: rotate(0);
 }
-#menu__toggle:checked ~ .menu__btn > span::after {
+
+#menu__toggle:checked ~ .menu__btn > span::after{
   top: 0;
   transform: rotate(90deg);
 }
-#menu__toggle:checked ~ .menu__box {
+
+#menu__toggle:checked ~ .menu__box{
   visibility: visible;
   left: 0;
 }
 
 .menu__btn > span,
 .menu__btn > span::before,
-.menu__btn > span::after {
-  transition-duration: .25s;
-}
-.menu__box {
-  transition-duration: .25s;
-}
-.menu__item {
+.menu__btn > span::after{
   transition-duration: .25s;
 }
 
-@media (max-width: 640px) {
+.menu__box{
+  transition-duration: .25s;
+}
+
+.menu__item{
+  transition-duration: .25s;
+}
+
+@media (max-width: 640px){
 
  .menu__btn {
    top: 70px;
